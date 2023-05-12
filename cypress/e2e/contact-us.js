@@ -13,7 +13,7 @@ describe("Contact Us Tests", ()=> {
         cy.get("[name='email']").type("arman@ayvazyan.com");
         cy.get("[name='message']").type("Lorem Ipsum is simply");
 
-        cy.log("log for new commit")
+        cy.log("log for new commi")
         cy.get("[type='submit']").click()
 
         //assert
