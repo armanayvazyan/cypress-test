@@ -8,12 +8,13 @@ describe("Contact Us Tests", ()=> {
 
     it("Check Submit Functionality when all data is input", ()=> {
         //act
+        //poxos
         cy.get("[name='first_name']").type("Arman");
         cy.get("[name='last_name']").type("Ayvazyan");
         cy.get("[name='email']").type("arman@ayvazyan.com");
         cy.get("[name='message']").type("Lorem Ipsum is simply");
 
-        cy.log("log for new commi")
+        cy.log("log for new commip")
         cy.get("[type='submit']").click()
 
         //assert
